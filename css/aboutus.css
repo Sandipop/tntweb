@@ -1,0 +1,367 @@
+.navspan{
+
+    left: 59%;
+    width: 20%;
+
+}
+
+
+.building-digital{
+    /* border: 1px solid red; */
+    margin: 8rem auto;
+
+}
+
+.building-digital-wraper{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    width: 88%;
+        /* border: 1px solid red; */
+
+}
+
+.building-digital-wraper img{
+    width: 100%;
+
+}
+.build-digital-text{
+    position: relative;
+            /* border: 1px solid red; */
+            padding: 1rem;
+
+}
+
+
+
+.build-h1pos{
+    position: absolute;
+    top: 1rem;
+    left: -13rem;
+
+}
+.build-h1{
+    color: #1D1D1D;
+    font-family: 'gilroy-medium', sans-serif;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126%; /* 3.95725rem */
+}
+.build-h1-2{
+    margin: 5rem 0 1rem 0 ;
+}
+
+.build-digital-text p{
+    color: #1D1D1D;
+  font-family: 'gilroy-regular', sans-serif;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 2.2rem */
+}
+
+.our-unique-wraper{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    width: 88%;
+        /* border: 1px solid red; */
+
+}
+
+.our-unique-text{
+    position: relative;
+    /* border: 1px solid red; */
+    padding: 1rem;
+    width: 45%;
+
+}
+
+.our-unique-h1{
+    color: #1D1D1D;
+    font-family: 'gilroy-medium', sans-serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126.632%; /* 3.95725rem */
+}
+.comment-card{
+    border-radius: 1.875rem;
+    background: rgba(225, 243, 203, 0.45);
+    padding: 2rem;
+    display:flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+.comment-card p{
+    color: #1B1D1E;
+    font-family: 'gilroy-light', sans-serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 142%;
+}
+.semicln{
+    width: 10%;
+}
+
+
+
+.grid-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  /* padding: 20px; */
+}
+
+.grid-item {
+  background-color: #f4f4f4;
+  border-radius: 30px;
+  /* padding: 30px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+
+
+}
+
+.grid-item img {
+  width: 80%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.item2 {
+  background-color: #fff7cc;
+}
+
+.item3 {
+  background-color: #eaf3ff;
+  margin-top: 3rem;
+}
+
+.item2 h2, .item3 h2 {
+  font-size: 2.5rem;
+  margin: 0;
+  font-family: 'gilroy-medium', sans-serif;
+}
+.item2, .item3 {
+height: 80%;
+}
+
+
+
+.item2 p, .item3 p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.team-cards{
+    margin: 5rem 0 1rem 0;
+    /* border: 1px solid red; */
+    flex-wrap: wrap;
+    gap: 5rem;
+    justify-content: center
+}
+
+
+.team-profile-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid red; */
+    width: 20%;
+    
+}
+.profile-img{
+    width: 100%;
+      height: auto;
+
+      aspect-ratio: 3 / 4;
+      object-fit: cover;
+          background-color: #BDBDBD;
+
+}
+.profile-img1{
+    border-radius: 6.25rem 6.25rem 0.625rem 0.625rem;
+}
+.profile-img2{
+    border-radius: 0.625rem 6.25rem 0.625rem 0.625rem;
+}
+.profile-img3{
+    border-radius: 1.25rem;
+}
+.profile-img4{
+    border-radius: 6.25rem 0.625rem;
+}
+.profile-img5{
+    border-radius: 6.25rem 6.25rem;
+}
+.profile-img6{
+    border-radius: 0.625rem 6.25rem;
+}
+.profile-img7{
+    border-radius: 0.625rem 6.25rem 0.625rem 0.625rem;
+}
+
+
+
+.profile-txt{
+    text-align: center;
+    padding: 1rem;
+}
+.profile-txt h2{
+    color: #1B1D1E;
+    text-align: center;
+    font-family: 'gilroy-medium', sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.8125rem; /* 120.833% */
+}
+.profile-txt p{
+    color: #1B1D1E;
+    text-align: center;
+    font-family: 'gilroy-light', sans-serif;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.375rem; /* 146.667% */
+    opacity: 80%;
+}
+.team-profile-links{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.link-icon{
+    width: 24px;;
+
+}
+
+.founder-btn{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+
+}
+
+.build-img-for-mobile{
+    display: none;
+}
+.build-h1-for-mobile{
+    display: none;
+}
+
+
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+  .grid-section {
+    grid-template-columns: 1fr;
+  }
+  .navspan{
+
+    left: 57%;
+    width: 23%;
+
+}
+
+.build-img-hide-mobile{
+    display: none;
+}
+.build-img-for-mobile{
+    display: block;
+    border-radius: 20px;
+}
+.build-h1-for-mobile{
+    display: block;
+    color: #1D1D1D;
+    font-family: Gilroy-Medium;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%; /* 2.3625rem */
+
+}
+.build-digital-text p{
+    color: #1D1D1D;
+    font-family: Gilroy-Regular;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%; /* 1.6875rem */
+    margin: 1rem 0;
+}
+.building-digital{
+
+    margin: 3rem auto;
+
+}
+.building-digital-wraper{
+    display: flex;
+    flex-direction: column
+    ;
+    /* align-items: center; */
+    justify-content: space-between;
+    width: 88%;
+        /* border: 1px solid red; */
+
+}
+
+
+.our-unique-wraper{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-between;
+    width: 90%;
+        /* border: 1px solid red; */
+
+}
+.our-unique-text{
+    position: relative;
+    /* border: 1px solid red; */
+    padding: 1rem;
+    width: 100%;
+
+}
+.our-unique-h1{
+    color: #1D1D1D;
+    font-family: Gilroy-Medium;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126.632%; /* 2.21606rem */
+}
+.comment-card{
+
+    margin-top: 2rem;
+}
+.grid-item img {
+  width: 100%;
+
+
+}
+.item2, .item3 {
+height: 9rem;
+margin:  0 0;
+
+}
+
+  .item2{
+     order: 1; 
+}
+.team-profile-card{
+
+    width: 100%;
+    
+}
+
+
+}
