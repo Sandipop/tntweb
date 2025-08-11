@@ -162,9 +162,9 @@ display: block
     margin-top: 3rem;
   }
 
-  /* .nav-cta{
+  .nav-cta{
     display: none;
-  } */
+  }
   .hero-title,
   .fancy-text {
     font-size: 50px;

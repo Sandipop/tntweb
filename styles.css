@@ -1,25 +1,5 @@
-@font-face {
-    font-family: gilroy-regular;
-    src: url(fonts/Gilroy-Regular.ttf);
-}
-@font-face {
-    font-family: gilroy-bold;
-    src: url(fonts/Gilroy-Bold.ttf);
-}
-@font-face {
-    font-family: gilroy-light;
-    src: url(fonts/Gilroy-Light.ttf);
-}
-@font-face {
-    font-family: gilroy-medium;
-    src: url(fonts/Gilroy-Medium.ttf);
-}
-@font-face {
-    font-family: gilroy-heavy;
-    src: url(fonts/Gilroy-Heavy.ttf);
-}
-/* Reset */
 
+/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -743,7 +723,7 @@ padding-bottom: 14px;
 
 
 .ccard1{
-  background: url('assets/customstories.webp ') center/cover no-repeat;
+  background: url('/assets/customstories.webp ') center/cover no-repeat;
   color: white;
   grid-column: span 2;
   width: 65%;
