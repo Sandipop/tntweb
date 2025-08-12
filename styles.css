@@ -5,6 +5,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'gilroy-regular', sans-serif;
+    -webkit-tap-highlight-color: transparent; /* iOS & Android */
+ 
 }
 
 body{
