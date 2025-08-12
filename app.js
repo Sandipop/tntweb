@@ -104,30 +104,55 @@ Cal("init", "30min", {origin:"https://app.cal.com"});
 
 
 
+
+
+
+
+const pricingButtons = document.querySelectorAll(".pricingbutton");
+const pricingCards = document.querySelectorAll(".pricing-card");
+
+pricingButtons.forEach(button => {
+    button.addEventListener("click", () => {
+        // Switch button active state
+        pricingButtons.forEach(btn => btn.classList.remove("active"));
+        button.classList.add("active");
+
+        const target = button.getAttribute("data-target");
+
+        // Switch card active state
+        pricingCards.forEach(card => {
+            card.classList.remove("active");
+        });
+
+        document.getElementById(target).classList.add("active");
+    });
+});
+
+
 // Disable right-click
   document.addEventListener('contextmenu', function (e) {
     e.preventDefault();
   });
 
   // Disable key shortcuts
-  // document.addEventListener('keydown', function (e) {
-  //   // Ctrl+U
-  //   if (e.ctrlKey && e.key.toLowerCase() === 'u') {
-  //     e.preventDefault();
-  //   }
+  document.addEventListener('keydown', function (e) {
+    // Ctrl+U
+    if (e.ctrlKey && e.key.toLowerCase() === 'u') {
+      e.preventDefault();
+    }
 
-  //   // Ctrl+Shift+I or Ctrl+Shift+J
-  //   if (e.ctrlKey && e.shiftKey && (e.key.toLowerCase() === 'i' || e.key.toLowerCase() === 'j')) {
-  //     e.preventDefault();
-  //   }
+    // Ctrl+Shift+I or Ctrl+Shift+J
+    if (e.ctrlKey && e.shiftKey && (e.key.toLowerCase() === 'i' || e.key.toLowerCase() === 'j')) {
+      e.preventDefault();
+    }
 
-  //   // F12
-  //   if (e.key === 'F12') {
-  //     e.preventDefault();
-  //   }
+    // F12
+    if (e.key === 'F12') {
+      e.preventDefault();
+    }
 
-  //   // Ctrl+Shift+C
-  //   if (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === 'c') {
-  //     e.preventDefault();
-  //   }
-  // });
+    // Ctrl+Shift+C
+    if (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === 'c') {
+      e.preventDefault();
+    }
+  });

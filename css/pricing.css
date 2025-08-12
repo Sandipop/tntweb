@@ -1,23 +1,382 @@
+.navspan{
+
+ left: 79%;
+ width: 20%;
+
+}
+
 .pricing-container{
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .pricing-container{
   width: 88%;
   display: flex;
+  justify-content: space-between;
+      /* border: 1px solid red; */
+      height: auto;
+
+
 }
 .pricing-container-left{
-  width: 38%;
+
+  width: 39%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
 }
 .pricing-container-left h1{
-  font-family: 'gilroy-medum', sans-serif;
+  font-family: 'gilroy-medium', sans-serif;
   font-size: 3.58rem;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.1;
 
 background: linear-gradient(180deg, #2e2e2e, #aaaaaa); /* your gradient colors */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  margin-bottom: 2rem;
+
+}
+
+.call-container{
+  padding: 2rem 3rem;
+  border-radius: 2rem;
+background: #2D2E2C;
+box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: .8rem;
+
+
+}
+.intro{
+  display: flex;
+  align-items: center;
+
+  gap: 1.12rem;
+
+}
+.intro img{
+  border-radius: 50%;
+
+}
+.intro h2{
+  font-size: 2rem;
+background: linear-gradient(95deg, #D9D9D9 -17.57%, #737373 81.45%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.timetoget{
+  color: #FFF;
+  font-family: 'gilroy-regular', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.625rem;
+  opacity: 0.4;
+
+  }
+
+.callbtn{
+  padding: 1rem 1.7rem;
+  display: flex;
+  align-self: center;
+  gap: 1rem;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 624.9375rem;
+  cursor: pointer;
+
+}
+.callbtn p{
+  color: #FFF;
+      font-family: 'gilroy-light', sans-serif;
+  font-size: 0.92188rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem; /* 162.712% */
+}
+.callbtn img{
+filter: brightness(0) invert(1);
+
+
+}
+
+.email-con{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.email-box p {
+  color: #fff;
+  opacity: 0.6;
+  font-family: 'gilroy-light', sans-serif;
+
+}
+.email-box a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'gilroy-medium', sans-serif;
+  
+}
+
+.pricing-container-right{
+  width: 58%;
+  
+}
+.pricingbtns{
+ display: flex;
+ gap: 1rem;
+ margin-bottom: 2rem;
+ cursor: pointer;
+}
+.pricingbutton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  padding: 1.05rem 1.6rem;
+  border-radius: 1198.80006rem;
+  background: #D4D4D4;
+}
+.pricingbutton p{
+  color: #191B18;
+  font-family: 'gilroy-medium', sans-serif;
+}
+.pricingbutton p:nth-child(3){
+
+  color: #191B18;
+  opacity: 0.4;
+}
+.pricingbutton img{
+  filter: brightness(0);
+}
+
+.pricing-card-container {
+  position: relative;
+  height: auto; /* Adjust if you want fixed height */
+}
+.pricing-card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #1a1a1a; /* fallback in case bg image fails */
+  border-radius: 32px;
+  color: #fff;
+  padding: 2rem 3rem;
+
+background: url('/assets/pricing-card-bg.png') no-repeat center center;
+  background-size: cover; /* makes the image cover the whole container */
+  border-radius: 32px;
+  color: #fff;
+  opacity: 0;
+  transform: translateY(10px);
+  pointer-events: none;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+#custom{
+  background: #D8D8D8;
+}
+#custom h1{
+  color: #000000;
+  opacity: .5;
+}
+.pricing-card.active {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+  z-index: 1;
+}
+
+
+.pricing-card h1{
+  font-family: 'gilroy-regular', sans-serif;
+font-size: 2.03906rem;
+font-style: normal;
+font-weight: 600;
+line-height: 2.25rem; /* 110.345% */
+color: #fff;
+opacity: 0.6;
+margin-bottom: 3rem;
+
+}
+.feature-text{
+  display: flex;
+  gap: 1rem;
+  margin: .8rem;
+  opacity: .5;
+  font-family: 'gilroy-regular', sans-serif;
+}
+.fancy-text-custom{
+  color: #000000;
+opacity: 0.6;
+}
+.fancy-text-custom img{
+
+  filter: brightness(0) saturate(100%);
+
+}
+.feature-text p{
+
+font-size: 1.01956rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.4625rem; /* 143.448% */
+
+  font-family: 'gilroy-regular', sans-serif;
+}
+
+.price{
+  display: flex;
+  margin-top: 6rem;
+  gap: 1rem;
+}
+.price h1{
+  font-family: 'gilroy-regular', sans-serif;
+font-size: 2.88281rem;
+font-style: normal;
+font-weight: 600;
+
+}
+.price p{
+color: #F5F5F5;
+font-size: 1rem;
+font-weight: 600;
+line-height: 1.3;
+
+}
+.price span{
+
+  opacity: .5;
+
+font-weight: 500;
+
+}
+.custom-price h1{
+  color: #000;
+  opacity: .9;
+}
+.custom-price p{
+  color: #000;
+  opacity: .5;
+}
+
+
+
+
+.pricingbutton.active {
+  background: #191B18;
+}
+.pricingbutton.active p {
+  color: white;
+}
+.pricingbutton.active img {
+  filter: brightness(0) invert(1);
+}
+
+/* Animation for fade */
+.pricing-card {
+  opacity: 0;
+
+  transform: translateY(10px);
+  transition: all 0.4s ease;
+}
+.pricing-card.active {
+  opacity: 1;
+
+  transform: translateY(0);
+}
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+ 
+.pricing-section{
+}
+
+.pricing-container{
+  flex-direction: column;
+  width: 90%;
+  gap: 1rem;
+
+}
+
+.pricing-container-left{
+
+  width: 100%;
+
+
+}
+.pricing-container-left h1{
+  font-family: 'gilroy-medium', sans-serif;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 2rem 0;
+
+}
+.call-container{
+  padding: 2rem;
+  border-radius: 2rem;
+gap: 1rem;
+
+
+}
+.intro h2{
+  font-size: 1.5rem;
+
+}
+.timetoget{
+
+  font-size: 1rem;
+    line-height: 1rem;
+
+  }
+.intro img{
+  border-radius: 50%;
+  width: 20%;
+
+}
+.email-box p {
+font-size: .7rem;
+
+}
+
+.pricing-container-right{
+  width: 100%;
+
+}
+
+  .pricingbtns {
+    margin-bottom: 1rem;
+    cursor: pointer;
+
+    /* Horizontal scroll */
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch; /* Smooth scroll for iOS */
+
+    /* Hide scroll bar (optional) */
+    scrollbar-width: none; /* Firefox */
+  }
+  .pricingbtns::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+  }
+
+  /* Prevent buttons from shrinking */
+  .pricingbutton {
+    flex: 0 0 auto;
+  }
+  .pricing-card-container {
+  position: relative;
+  height: 32rem; /* Adjust if you want fixed height */
+}
+
 
 }
