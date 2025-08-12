@@ -5,3 +5,19 @@
   width: 88%;
   display: flex;
 }
+.pricing-container-left{
+  width: 38%;
+}
+.pricing-container-left h1{
+  font-family: 'gilroy-medum', sans-serif;
+  font-size: 3.58rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.1;
+
+background: linear-gradient(180deg, #2e2e2e, #aaaaaa); /* your gradient colors */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+}
