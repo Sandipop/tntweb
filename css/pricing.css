@@ -1,0 +1,7 @@
+.pricing-container{
+    border: 1px solid red;
+}
+.pricing-container{
+  width: 88%;
+  display: flex;
+}
