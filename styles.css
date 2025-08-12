@@ -9,7 +9,14 @@
 
 body{
   background: url(assets/home-grid-img.webp);
+    user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
   
+}
+img {
+  pointer-events: none;
+  -webkit-user-drag: none; /* Safari */
 }
 
 
