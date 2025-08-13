@@ -4,6 +4,15 @@
     box-sizing: border-box;
     font-family: 'gilroy-regular', sans-serif;
 }
+body{
+      user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+img {
+  pointer-events: none;
+  -webkit-user-drag: none; /* Safari */
+}
 
 
 
