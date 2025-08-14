@@ -12,27 +12,28 @@ function toggleMenu() {
 
 // project filtering
 
-  const filterButtons = document.querySelectorAll('.button1');
-  const projectLinks = document.querySelectorAll('.project-link');
+const filterButtons = document.querySelectorAll('.button1');
+const projectLinks = document.querySelectorAll('.project-link');
 
-  filterButtons.forEach(button => {
-    button.addEventListener('click', () => {
-      // Update button active class
-      filterButtons.forEach(btn => btn.classList.remove('activebutton'));
-      button.classList.add('activebutton');
+filterButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    // Update button active class
+    filterButtons.forEach(btn => btn.classList.remove('activebutton'));
+    button.classList.add('activebutton');
 
-      const category = button.getAttribute('data-category');
+    const category = button.getAttribute('data-category');
 
-      projectLinks.forEach(link => {
-        if (link.getAttribute('data-category') === category) {
-          link.style.display = 'block';
-        } else {
-          link.style.display = 'none';
-        }
-      });
+    projectLinks.forEach(link => {
+      const categories = link.getAttribute('data-category').split(' '); // split tags into array
+
+      if (category === 'all' || categories.includes(category)) {
+        link.style.display = 'block';
+      } else {
+        link.style.display = 'none';
+      }
     });
   });
-
+});
 
 
 
@@ -135,24 +136,24 @@ pricingButtons.forEach(button => {
   });
 
   // Disable key shortcuts
-  document.addEventListener('keydown', function (e) {
-    // Ctrl+U
-    if (e.ctrlKey && e.key.toLowerCase() === 'u') {
-      e.preventDefault();
-    }
+  // document.addEventListener('keydown', function (e) {
+  //   // Ctrl+U
+  //   if (e.ctrlKey && e.key.toLowerCase() === 'u') {
+  //     e.preventDefault();
+  //   }
 
-    // Ctrl+Shift+I or Ctrl+Shift+J
-    if (e.ctrlKey && e.shiftKey && (e.key.toLowerCase() === 'i' || e.key.toLowerCase() === 'j')) {
-      e.preventDefault();
-    }
+  //   // Ctrl+Shift+I or Ctrl+Shift+J
+  //   if (e.ctrlKey && e.shiftKey && (e.key.toLowerCase() === 'i' || e.key.toLowerCase() === 'j')) {
+  //     e.preventDefault();
+  //   }
 
-    // F12
-    if (e.key === 'F12') {
-      e.preventDefault();
-    }
+  //   // F12
+  //   if (e.key === 'F12') {
+  //     e.preventDefault();
+  //   }
 
-    // Ctrl+Shift+C
-    if (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === 'c') {
-      e.preventDefault();
-    }
-  });
+  //   // Ctrl+Shift+C
+  //   if (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === 'c') {
+  //     e.preventDefault();
+  //   }
+  // });

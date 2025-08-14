@@ -469,7 +469,7 @@ margin-bottom: 30px;
 .projet-container{
   width: 88%;
   height: auto;
-  /* border: 1px solid green; */
+  /* border: 1px solid red; */
 
 }
 .p-txt{
@@ -536,14 +536,18 @@ width: 100%;
   height: auto;
     /* padding: 20px; */
     box-sizing: border-box;
+      /* border: 1px solid red; */
+
 
 
 }
 .proj-card-row{
+    width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 1rem 0 5rem 0;
   /* border: 1px solid red; */
+  flex-wrap: wrap;
 
 
 
