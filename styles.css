@@ -544,7 +544,7 @@ width: 100%;
 .proj-card-row{
     width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 1rem 0 5rem 0;
   /* border: 1px solid red; */
   flex-wrap: wrap;
