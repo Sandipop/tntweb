@@ -511,10 +511,7 @@ width: 100%;
   text-decoration: none;  
     color: #fff;
 }
-.button1:hover{
-  background-color: #000;
-  color: #fff;
-}
+
 .btn-arrow{
   margin: 0  0 0 5px;
 }
@@ -522,10 +519,7 @@ width: 100%;
   background-color: #000;
   color: #fff;
 }
-.activebutton:hover{
-  color: #000;
-  background-color: #fff;
-}
+
 
 
 
