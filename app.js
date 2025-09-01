@@ -79,11 +79,11 @@ const prevBtn = document.getElementById("prevBtn");
 
 if (nextBtn && prevBtn && carousel) {
   nextBtn.addEventListener("click", () => {
-    carousel.scrollBy({ left: 420, behavior: "smooth" });
+    carousel.scrollBy({ left: 450, behavior: "smooth" });
   });
 
   prevBtn.addEventListener("click", () => {
-    carousel.scrollBy({ left: -420, behavior: "smooth" });
+    carousel.scrollBy({ left: -450, behavior: "smooth" });
   });
 }
 
@@ -136,24 +136,24 @@ pricingButtons.forEach(button => {
   });
 
   // Disable key shortcuts
-  // document.addEventListener('keydown', function (e) {
-  //   // Ctrl+U
-  //   if (e.ctrlKey && e.key.toLowerCase() === 'u') {
-  //     e.preventDefault();
-  //   }
+  document.addEventListener('keydown', function (e) {
+    // Ctrl+U
+    if (e.ctrlKey && e.key.toLowerCase() === 'u') {
+      e.preventDefault();
+    }
 
-  //   // Ctrl+Shift+I or Ctrl+Shift+J
-  //   if (e.ctrlKey && e.shiftKey && (e.key.toLowerCase() === 'i' || e.key.toLowerCase() === 'j')) {
-  //     e.preventDefault();
-  //   }
+    // Ctrl+Shift+I or Ctrl+Shift+J
+    if (e.ctrlKey && e.shiftKey && (e.key.toLowerCase() === 'i' || e.key.toLowerCase() === 'j')) {
+      e.preventDefault();
+    }
 
-  //   // F12
-  //   if (e.key === 'F12') {
-  //     e.preventDefault();
-  //   }
+    // F12
+    if (e.key === 'F12') {
+      e.preventDefault();
+    }
 
-  //   // Ctrl+Shift+C
-  //   if (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === 'c') {
-  //     e.preventDefault();
-  //   }
-  // });
+    // Ctrl+Shift+C
+    if (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === 'c') {
+      e.preventDefault();
+    }
+  });
