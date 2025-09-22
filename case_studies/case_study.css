@@ -279,7 +279,7 @@ transition: 0.25s ease-in-out;
     font-size: 2rem;
 }
 .the-problems{
-    width: 30%;
+    width: 45%;
     min-height: 30rem;
     border-radius: 1.25rem;
     background: #F6E683;
@@ -318,7 +318,7 @@ transition: 0.25s ease-in-out;
 }
 
 .the-chalange{
-    width: 70%;
+    width: 55%;
     min-height: 30rem;
     border-radius: 1.25rem;
     background: #1B1D1E;
