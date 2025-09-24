@@ -81,8 +81,10 @@
 
 .navspan{
 width: 18%;
-display: block
+display: none;
 }
+
+
 
 
   @keyframes slideDown {

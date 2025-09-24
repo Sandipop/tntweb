@@ -1,12 +1,12 @@
 body{
   /* background-color: #F7F7F7; */
-  background: #f7f7f7;
+  /* background: #f7f7f7; */
 }
 
 .navspan{
 
-    left: 37%;
-    width: 21%;
+    left: 31%;
+    width: 16%;
 
 }
 
@@ -173,8 +173,10 @@ padding-bottom:0;
 .our-process-cards{
   width: 100%;
   display:flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 .process-card{
   max-width: 290px;

@@ -1,0 +1,167 @@
+.navspan{
+
+ left:81%;
+ width: 18%;
+
+}
+
+
+.form-section{
+    /* border: 1px solid red; */
+}
+.form-con{
+    width: 90%;
+
+        /* border: 1px solid red; */
+    padding: 4rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1.3125rem;
+background: linear-gradient(90deg, rgba(186, 243, 255, 0.50) 0%, rgba(255, 255, 255, 0.50) 50%, rgba(166, 239, 254, 0.50) 100%);
+}
+
+.form-containe-l{
+    width: 50%;
+
+}
+.form-containe-r{
+    width:35%;
+    background-color: #fff;
+    border-radius: 18px;
+    padding: 2rem;
+    box-shadow: -6px -6px 20.2px 0 #FFF, 6px 6px 6px 0 rgba(142, 149, 160, 0.50);
+backdrop-filter: blur(2px);
+
+}
+
+.formh3{
+text-align: center;
+padding: 1rem ;
+color: #4E4E80;
+}
+.form-container {
+  background: #fff;
+  padding: 30px;
+  width: 380px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+
+  
+
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #3b3663;
+  font-size: 20px;
+}
+.form-containe-l-h1{
+  font-size: 38px;
+    font-family: 'gilroy-medium', sans-serif;
+    margin-bottom: 40px;
+}
+.form-containe-l-p{
+    font-size: 20px;
+    font-family: 'gilroy-medium', sans-serif;
+    margin-bottom: 20px;
+    color:#898289;
+}
+/* Inputs */
+form input,
+form select {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 16px;
+  border: 1px solid #C5C5C5;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: 0.3s;
+}
+
+form input:focus,
+form select:focus {
+  border-color: #4a6cf7;
+  box-shadow: 0 0 4px rgba(74, 108, 247, 0.4);
+}
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  background: white url('/assets/ArrowDown.svg') no-repeat right 10px center;
+  background-size: 12px;   /* adjust size of the arrow */
+
+  padding-right: px;     /* add space so text doesn't overlap */
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+
+
+
+/* Phone input */
+.phone-input {
+  display: flex;
+  gap: 8px;
+}
+
+.phone-input select {
+  width: 80px;
+  flex-shrink: 0;
+}
+
+/* Button */
+.submit-btn{
+  position: relative;
+
+
+}
+
+
+.sdbutton {
+  background: #4B7BDD;
+  color: white;
+  padding: .4rem .1rem .4rem 1rem;
+  border: none;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  width: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* gap: 5px; */
+}
+.btmlink{
+    color: #fff;
+    text-decoration: none;
+}
+.arrow_icon{
+height: 2rem;
+width: 2rem;
+color: #4B7BDD;
+background-color: #fff;
+border-radius: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.arrowsvg{
+  
+}
+
+#formMessage {
+  margin-top: 10px;
+  font-size: 14px;
+  color: green;
+  display: none; /* hidden initially */
+  text-align: center;
+}
+#formMessage.show {
+  display: block;
+}
+
