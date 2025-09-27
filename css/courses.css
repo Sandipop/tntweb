@@ -168,6 +168,10 @@ align-items: center;
 #formMessage.show {
   display: block;
 }
+.gform{
+  height: 450px;
+  width: 500px;
+}
 
 @media (max-width: 768px) {
 
@@ -177,6 +181,8 @@ align-items: center;
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    padding: 2rem;
+    
   }
 .form-containe-l{
     width: 100%;
@@ -185,9 +191,19 @@ align-items: center;
 
 .form-containe-r{
     width:100%;
-        padding: 1rem;
+    padding: 1rem;
 
 }
 
+.our-process-container{
+  margin: 4rem 0;
+}
+.gform{
+  height: 600px;
+ width: 100%;
+}
+.our-process{
+  margin: 0;
+}
 
 }
