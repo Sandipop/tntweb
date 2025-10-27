@@ -10,7 +10,8 @@
 }
 
 body{
-  background: url(assets/home-grid-img.webp);
+background: url(assets/home-grid-img-2-2.jpg) no-repeat center center fixed;
+  background-size: cover; 
     user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
@@ -183,18 +184,19 @@ transition: 0.25s ease-in-out;
     flex-direction: column;
     width: 100%;
 
+    
+
 
 }
 .hero {
   max-width: 100%;
-  width: 65%;
+  width:80%;
   margin: 0 auto;
   padding-bottom: 4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 50px;
-  
 
 
 }
@@ -205,7 +207,7 @@ transition: 0.25s ease-in-out;
     font-family: 'gilroy-bold', sans-serif;
   font-size: 90px;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.2;
   margin-bottom: 1rem;
   letter-spacing: -6px;
   
@@ -240,7 +242,7 @@ transition: 0.25s ease-in-out;
   gap: 6rem;
   font-weight: 200;
   font-size: 25px;
-  margin: 2rem 0;
+  margin: 4rem 0;
 }
 
 .features p{
@@ -259,16 +261,29 @@ background: rgba(255, 255, 255, 0.02); /* translucent */
   border-radius: 50px;
 
 }
-
+/* 
 .description {
-  font-family: 'gilroy-light', sans-serif;
+  font-family: 'gilroy-medium', sans-serif;
   text-align: center;
   max-width: auto;
   margin: 0 auto;
   font-size: 22px;
-  color: #1B1D1ECC;
+  color: #000000;
   margin-bottom: 2rem;
-}
+
+  background-color: #000000;
+
+  border-radius: 3.25rem;
+background: linear-gradient(90deg, rgba(0, 0, 0, 0.06) 0%, rgba(102, 102, 102, 0.06) 100%);
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+padding: 1.5rem 1rem;
+background: rgba(0, 0, 0, 0.421);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(22px);
+  border: .5px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+} */
 
 
 
@@ -333,7 +348,21 @@ background: rgba(255, 255, 255, 0.02); /* translucent */
   width: max-content;
 }
 
+.des{
+width: 100%;
+background-color: #F7F7F7;
 
+}
+.description{
+  font-family: 'gilroy-medium', sans-serif;
+  text-align: center;
+  max-width: auto;
+  margin: 0 auto;
+  font-size: 32px;
+  color: #727272;
+  padding: 2rem 8rem;
+
+}
 
 
 .services{
@@ -1222,3 +1251,43 @@ margin: 60px 0 30px 0;
 
 /* work page css start here */
 
+
+
+.hero {
+  position: relative; /* needed to position background inside */
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  z-index: 1;
+}
+
+.hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* push behind content */
+  overflow: hidden;
+  border-radius: 20px; /* optional */
+}
+
+.hero-bg iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.hideing{
+  width: 10rem;
+  height: 4rem;
+  /* background: linear-gradient(263deg, #DDF4F9 -6.59%, #ECF7F8 105.9%); */
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

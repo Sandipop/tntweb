@@ -272,10 +272,16 @@ background-color: #F6E683 ;
 -------------------------------------------------- */
 @media (max-width: 767px) {
  
+
+  .hero-bg {
+display: none;
+
+  }
   .hero {
     width: 100%;
     padding: 2rem 1rem;
   }
+
 .on-mobile{
     display: block;
     font-family: 'gilroy-bold', sans-serif;
@@ -310,8 +316,23 @@ background-color: #F6E683 ;
   .features p {
     font-size: 18px;
   }
-  .description {
-  font-size: 16px;
+
+  .hideing{
+    display: none;
+  }
+.des{
+width: 100%;
+background-color: #F7F7F7;
+
+}
+.description{
+  font-family: 'gilroy-medium', sans-serif;
+  text-align: center;
+  max-width: auto;
+  margin: 0 auto;
+  font-size: 22px;
+  color: #727272;
+  padding: 2rem 1rem;
 
 }
 

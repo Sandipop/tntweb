@@ -157,3 +157,4 @@ pricingButtons.forEach(button => {
       e.preventDefault();
     }
   });
+  
