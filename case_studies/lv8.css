@@ -42,7 +42,7 @@
   align-items: center;
 
   margin: 5rem 0;
-  gap: 8rem;
+  gap: 6rem;
 }
 .prbst{
   width: 70%;
@@ -327,6 +327,9 @@ margin: 2rem 0;
 
 .subjur{
   margin: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .subjur h3{
   color: #282D46;
@@ -335,4 +338,9 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 letter-spacing: -0.06rem;
+}
+
+.outcome{
+  width: 88%;
+  margin: 0;
 }
