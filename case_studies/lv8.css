@@ -42,7 +42,7 @@
   align-items: center;
 
   margin: 5rem 0;
-  gap: 6rem;
+  gap: 5rem;
 }
 .prbst{
   width: 70%;
@@ -72,6 +72,12 @@ font-style: normal;
 font-weight: 600;
 line-height:1.5; /* 2.96731rem */
 }
+
+.lv8vid{
+  border-radius: 1.5rem;
+}
+
+
 .obj-goal{
   width: 80%;
 
